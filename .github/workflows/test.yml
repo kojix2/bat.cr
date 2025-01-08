@@ -21,6 +21,7 @@ jobs:
       - uses: crystal-lang/install-crystal@v1
         with:
           crystal: latest
+          shards: 0.19
       - name: Install dependencies
         run: |
           shards install
